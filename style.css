@@ -1,1 +1,110 @@
 
+body{
+margin:0;
+background:#0a0a0f;
+color:white;
+font-family:Inter;
+}
+
+/* NAV */
+
+.nav{
+display:flex;
+justify-content:space-between;
+padding:20px 60px;
+position:fixed;
+width:100%;
+background:rgba(0,0,0,0.6);
+backdrop-filter:blur(10px);
+z-index:100;
+}
+
+.logo{
+font-family:Bebas Neue;
+font-size:30px;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+position:relative;
+}
+
+.hero-video{
+position:absolute;
+width:100%;
+height:100%;
+object-fit:cover;
+opacity:.4;
+}
+
+.overlay{
+position:absolute;
+width:100%;
+height:100%;
+background:linear-gradient(#0a0a0f,transparent,#0a0a0f);
+}
+
+.hero-text{
+z-index:2;
+}
+
+.title{
+font-family:Bebas Neue;
+font-size:80px;
+}
+
+.btn{
+background:#00d4ff;
+padding:12px 25px;
+text-decoration:none;
+color:black;
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+padding:120px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.card video{
+width:100%;
+border-radius:10px;
+}
+
+/* LIGHTBOX */
+
+.lightbox{
+display:none;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:black;
+align-items:center;
+justify-content:center;
+}
+
+.lightbox video{
+width:80%;
+}
+
+.close{
+position:absolute;
+top:40px;
+right:40px;
+font-size:30px;
+cursor:pointer;
+}
