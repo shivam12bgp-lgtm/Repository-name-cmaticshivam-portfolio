@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Cmatic Shivam | Video Editor</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="nav">
+
+<div class="logo">CMATIC SHIVAM</div>
+
+<ul>
+<li><a href="#portfolio">Work</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact" class="cta">Hire Me</a></li>
+</ul>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<video autoplay muted loop class="hero-video">
+<source src="videos/hero.mp4">
+</video>
+
+<div class="overlay"></div>
+
+<div class="hero-text">
+
+<h1 class="title">Cinematic Video Editing</h1>
+
+<p class="subtitle">Turning raw footage into visual stories.</p>
+
+<a href="#portfolio" class="btn">View Portfolio</a>
+
+</div>
+
+</section>
+
+<!-- SHOWREEL -->
+
+<section class="showreel">
+
+<h2>Showreel</h2>
+
+<video controls>
+<source src="videos/showreel.mp4">
+</video>
+
+</section>
+
+<!-- PORTFOLIO -->
+
+<section id="portfolio" class="portfolio">
+
+<h2>Portfolio</h2>
+
+<div class="filters">
+
+<button data-filter="all">All</button>
+<button data-filter="youtube">YouTube</button>
+<button data-filter="reels">Reels</button>
+
+</div>
+
+<div class="grid">
+
+<div class="card youtube">
+
+<video muted loop>
+<source src="videos/edit1.mp4">
+</video>
+
+</div>
+
+<div class="card reels">
+
+<video muted loop>
+<source src="videos/edit2.mp4">
+</video>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- LIGHTBOX -->
+
+<div class="lightbox">
+
+<span class="close">✕</span>
+
+<video controls id="lightbox-video"></video>
+
+</div>
+
+<!-- ABOUT -->
+
+<section id="about" class="about">
+
+<img src="images/profile.jpg">
+
+<div>
+
+<h2>About Me</h2>
+
+<p>
+
+I'm Shivam, a passionate video editor creating cinematic stories
+for creators, brands, and businesses.
+
+</p>
+
+<p>
+
+Tools: Premiere Pro • After Effects • DaVinci Resolve
+
+</p>
+
+</div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section id="services" class="services">
+
+<h2>Services</h2>
+
+<div class="services-grid">
+
+<div class="service">YouTube Editing</div>
+<div class="service">Reels Editing</div>
+<div class="service">Cinematic Edits</div>
+<div class="service">Motion Graphics</div>
+
+</div>
+
+</section>
+
+<!-- TESTIMONIALS -->
+
+<section class="testimonials">
+
+<h2>Testimonials</h2>
+
+<div class="slider">
+
+<div class="review">
+
+<p>“Amazing editing work and fast delivery.”</p>
+<strong>Creator Client</strong>
+
+</div>
+
+<div class="review">
+
+<p>“Our videos perform much better after Shivam's edits.”</p>
+<strong>Brand Client</strong>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+<h2>Let's Work Together</h2>
+
+<p>Email: your@email.com</p>
+
+<p>Instagram: @cmaticshivam</p>
+
+<a href="mailto:your@email.com" class="contact-btn">
+
+Contact Me
+
+</a>
+
+</section>
+
+<footer>
+
+© 2026 Cmatic Shivam
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
